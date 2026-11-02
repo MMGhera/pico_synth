@@ -1,0 +1,13 @@
+# KiCad Backup Folders
+*-backups/
+
+# Temporary Lock Files
+*.lck
+
+# Project Local Settings (User-specific UI state/window preferences)
+*.kicad_prl
+
+# Generated Rule Check Reports
+*.rpt
+
+*.txt
