@@ -11,3 +11,5 @@
 *.rpt
 
 *.txt
+
+.gerbers/*
