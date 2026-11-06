@@ -7723,16 +7723,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 24.13) (xy 146.05 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc9437b-cfc8-4dd6-b632-9e1d014b662a")
-	)
-	(wire
-		(pts
 			(xy 77.47 241.3) (xy 77.47 246.38)
 		)
 		(stroke
@@ -8263,6 +8253,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 26.67) (xy 154.94 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaeb70a-3072-4bc8-8789-503e4460b31a")
+	)
+	(wire
+		(pts
 			(xy 33.02 241.3) (xy 33.02 245.11)
 		)
 		(stroke
@@ -8310,6 +8310,16 @@
 			(type default)
 		)
 		(uuid "c2181eca-765f-48d6-a8f5-918b1c1bd604")
+	)
+	(wire
+		(pts
+			(xy 148.59 21.59) (xy 148.59 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29386b1-034d-43b8-8bea-cee0fdcb52f6")
 	)
 	(wire
 		(pts
@@ -9183,16 +9193,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 26.67) (xy 154.94 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbc409a-bb25-4203-aad2-ee83daa9089d")
-	)
-	(wire
-		(pts
 			(xy 156.21 143.51) (xy 165.1 143.51)
 		)
 		(stroke
@@ -9301,6 +9301,16 @@
 		)
 		(uuid "114966f6-c938-4e80-a7a1-f364c7f361ed")
 	)
+	(label "I2C_SCL"
+		(at 147.32 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "156f7118-d4e6-48a2-a35b-15fdd7e2efff")
+	)
 	(label "3V3"
 		(at 280.67 152.4 90)
 		(effects
@@ -9310,16 +9320,6 @@
 			(justify left bottom)
 		)
 		(uuid "16582826-b452-4bc4-a808-91f88321869d")
-	)
-	(label "3V3"
-		(at 148.59 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16dbea24-4ad7-48fb-8f9b-00a2fee10fd3")
 	)
 	(label "I2S_DIN"
 		(at 172.72 88.9 180)
@@ -9602,6 +9602,16 @@
 		(uuid "52e68659-5b24-4e48-a829-4dca8be0e683")
 	)
 	(label "3V3"
+		(at 147.32 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5386aeab-190c-4d39-9ec4-11cb39c0873b")
+	)
+	(label "3V3"
 		(at 209.55 152.4 90)
 		(effects
 			(font
@@ -9730,16 +9740,6 @@
 			(justify left bottom)
 		)
 		(uuid "6b378331-02c9-4abd-b663-1e0b1277d526")
-	)
-	(label "I2C_SDA"
-		(at 147.32 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71028584-65a8-4072-9f2f-85d5a84a43e3")
 	)
 	(label "MUX_S0"
 		(at 156.21 140.97 0)
@@ -9890,16 +9890,6 @@
 			(justify right bottom)
 		)
 		(uuid "86f41749-3df6-40c2-b083-97ce6a5baa83")
-	)
-	(label "I2C_SCL"
-		(at 147.32 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87835972-7689-4ac8-b1d6-1138926179ce")
 	)
 	(label "LED_SAW"
 		(at 147.32 238.76 0)
@@ -10340,6 +10330,16 @@
 			(justify right bottom)
 		)
 		(uuid "fb1b0c21-a681-47e8-b7fd-b51fef890043")
+	)
+	(label "I2C_SDA"
+		(at 147.32 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe08857e-d756-4b8f-a829-52e83bda3ea4")
 	)
 	(label "POT_DEC"
 		(at 195.58 143.51 180)
@@ -18242,6 +18242,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 148.59 21.59 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8bf8dbd-e62d-450b-b560-da4ec11f33d1")
+		(property "Reference" "#PWR029"
+			(at 148.59 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.018 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C20625731_CRYSTAL-SMD_4P-L3_2-W2_5-BL"
+			(at 148.59 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "028bb5cc-e4c5-401a-a34a-7de892c442bd")
+		)
+		(instances
+			(project "synth_pico"
+				(path "/0bac48b7-278a-432d-8f97-ea75f51d7df8"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 252.73 0)
 		(mirror y)
 		(unit 1)
@@ -18396,84 +18474,6 @@
 			(project "synth_pico"
 				(path "/0bac48b7-278a-432d-8f97-ea75f51d7df8"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 24.13 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9bd01e7-99d1-4575-b031-c161738d8f37")
-		(property "Reference" "#PWR029"
-			(at 146.05 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 141.478 21.844 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C20625731_CRYSTAL-SMD_4P-L3_2-W2_5-BL"
-			(at 146.05 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70f84b2a-8f03-440d-af69-a51b14cc8aab")
-		)
-		(instances
-			(project "synth_pico"
-				(path "/0bac48b7-278a-432d-8f97-ea75f51d7df8"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
