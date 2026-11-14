@@ -2576,7 +2576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "194e9ad5-5207-49ed-bcad-f28fce2ef48b")
-		(property "Reference" "SW15"
+		(property "Reference" "SW12"
 			(at 106.68 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2638,7 +2638,7 @@
 		(instances
 			(project "keyboard"
 				(path "/1d5c4c8a-0d67-4830-b84a-ed55b62721e8"
-					(reference "SW15")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b03f749-4363-446a-8a24-c92076bc7d5c")
-		(property "Reference" "SW13"
+		(property "Reference" "SW11"
 			(at 81.28 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2718,7 @@
 		(instances
 			(project "keyboard"
 				(path "/1d5c4c8a-0d67-4830-b84a-ed55b62721e8"
-					(reference "SW13")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440c7adb-fca7-4699-b601-b14f7f30bbc3")
-		(property "Reference" "SW12"
+		(property "Reference" "SW14"
 			(at 55.88 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3350,7 +3350,7 @@
 		(instances
 			(project "keyboard"
 				(path "/1d5c4c8a-0d67-4830-b84a-ed55b62721e8"
-					(reference "SW12")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -3888,7 +3888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d7fe88-5446-4a4a-b791-f40265848e43")
-		(property "Reference" "SW11"
+		(property "Reference" "SW10"
 			(at 55.88 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +3950,7 @@
 		(instances
 			(project "keyboard"
 				(path "/1d5c4c8a-0d67-4830-b84a-ed55b62721e8"
-					(reference "SW11")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9041153-83a3-4dc4-9ee6-c238a8f5ab57")
-		(property "Reference" "SW10"
+		(property "Reference" "SW13"
 			(at 30.48 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +4214,7 @@
 		(instances
 			(project "keyboard"
 				(path "/1d5c4c8a-0d67-4830-b84a-ed55b62721e8"
-					(reference "SW10")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd5997fd-36fe-4baa-884d-e2d4d32cebe7")
-		(property "Reference" "SW14"
+		(property "Reference" "SW15"
 			(at 81.28 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4764,7 @@
 		(instances
 			(project "keyboard"
 				(path "/1d5c4c8a-0d67-4830-b84a-ed55b62721e8"
-					(reference "SW14")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
