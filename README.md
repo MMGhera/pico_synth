@@ -29,17 +29,8 @@ The boards connect through a 10-pin 2.54 mm header and an F-F Dupont ribbon:
 |---|---|---|---|---|
 | Signal | GND | ROW0–3 | COL0–3 | 3V3 (not used by the keyboard) |
 
-The function buttons are octave down, octave up, waveform select, and one spare.
+The function buttons are octave down, octave up, waveform select, and one spare(will probably implement octave up/down here too).
 
-## Repository layout
-
-```
-synth_pico.kicad_pro / .kicad_sch / .kicad_pcb   main board
-keyboard/                                        keyboard board
-art.pretty/                                      silkscreen artwork footprints
-Library.pretty/, libs/                           custom footprints and symbols
-gerbers/                                         fabrication outputs
-```
 
 ## Notes
 
