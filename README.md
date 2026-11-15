@@ -1,4 +1,4 @@
-# synth_pico
+# pico_synth
 
 A small hybrid synthesizer: a Raspberry Pi Pico 2 W generates the waveforms and envelopes digitally, and the sound runs through an analog VCA and filter before reaching the line output.
 
