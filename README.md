@@ -4,15 +4,10 @@ A small hybrid synthesizer: a Raspberry Pi Pico 2 W generates the waveforms and 
 
 Designed in KiCad 10. **Status:** PCBs and parts ordered, firmware not written yet. The first version is a single voice.
 
-![board render](docs/render.png)
 
 ## How it works
 
-```
-Pico 2 W ──I²S──> PCM5101A DAC ──> LM13700 VCA ──> LM13700 / TL074 filter ──> line out (3.5 mm)
-    │                                    ▲                    ▲
-    └──I²C──> MCP4728 4-ch CV DAC ───────┴──── level-shifted CVs (cutoff, resonance, VCA)
-```
+
 
 - **Oscillators and envelopes** run in firmware on the RP2350. Sine, square, triangle and sawtooth are selectable, and 4 LEDs show the active waveform.
 - **Control voltages** come from an MCP4728 and are level-shifted by a TL074H to drive the OTAs.
